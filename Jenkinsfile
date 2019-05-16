@@ -1,6 +1,6 @@
 node('linux'){
     stage('Test'){
-        git credentialsId: '572fb6c3-7114-4509-9c68-26dd11305cf8', url: 'https://github.com/amil3447/infrastructure-pipeline.git/'
+        git url: 'https://github.com/amil3447/infrastructure-pipeline.git/'
         sh 'cat README.md'
     }
     
