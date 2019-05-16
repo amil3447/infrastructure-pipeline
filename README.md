@@ -1,2 +1,2 @@
 # infrastructure-pipeline
-w11-hands-on
+w11-hands-on test
